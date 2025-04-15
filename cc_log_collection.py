@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timedelta, timezone
 from cryptography.fernet import Fernet
 
-base_url = "https://uhm.api.openvpn.com/api/beta"
+base_url = "https://<url>.api.openvpn.com/api/beta"
 
 # Fernet Encryption variables and functions.
 keys_folder_path: str = r"/opt/siem_logging_cloudconnexa/keys"
