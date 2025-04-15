@@ -8,14 +8,10 @@
 
 **Author** | Gianni DePaola
 
-**Contributor** | Nick Biacsi (Slof)
-
 ## Script Functionality
 
 ### Why was it written?
-The purpose of this script is to pull logs from Cloud Connexa via its REST API so that the Elastic Agent can forward the logs to the SIEM.
-
-SwaggerUI for CC API: https://uhm.api.openvpn.com/docs/swagger-ui
+The purpose of this script is to pull logs from Cloud Connexa via its REST API.
 
 ### What does it do?
 **cc_log_collection.py**: Generates an Oauth token from Cloud Connexa for authentication, collects all session logs from Cloud Connexa from the last 15 minutes and write them to a timestamped log file.
